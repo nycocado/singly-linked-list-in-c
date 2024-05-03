@@ -1,4 +1,6 @@
 # singly-linked-list-in-c
 ### 2º Semestre - Engenharia Informática - Universidade Europeia / IADE  
-Código de singly linked list feito no Laboratório de Programação e Algoritmos   
-(vou liberar meu código somente no dia 15/04/2024, depois da data de entrega do laboratório)
+Código de Singly Linked List feito no Laboratório de Programação e Algoritmos, lecionado por André Sabino (autor dos testes e list.h).
+
+Para compilar o teste, insira o comando `make test` no terminal.  
+Testado unicamente em Linux.
