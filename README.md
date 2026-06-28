@@ -12,13 +12,24 @@ Lista ligada simples genérica em C — iterator, map, filter e operações bás
 
 Implementação de uma lista ligada simples genérica em C com suporte a tipos de dados arbitrários (via `void *`). Inclui iterator, operações funcionais (map, filter), junção de listas, sublistas e remoção de duplicados. Inclui suite de testes unitários.
 
+## Requisitos
+
+| Ferramenta | Versão mínima |
+| ---------- | ------------- |
+| GCC        | 9+            |
+| Make       | 4+            |
+| gcovr      | 5+ (opcional) |
+
 ## Como executar
 
 ```bash
-make
+make            # compila
+make test       # compila e executa a suite de testes
+make cov        # executa testes e gera dados de cobertura (.gcov)
+make report     # exibe relatório de cobertura no terminal
 ```
 
-Executa a suite de testes. O código fonte está em `src/` e os testes em `test/`.
+O código fonte está em `src/` e os testes em `test/`.
 
 ## Licença
 
